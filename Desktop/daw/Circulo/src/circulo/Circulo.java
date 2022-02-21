@@ -32,5 +32,8 @@ System.out.println("tratando errores");
         double area=(PI*r*r);
 	System.out.printf("El valor del área es %f\n",area);
     }
-   
+   public static void CalculaLongitud(double r){
+double longitudCirculo=(2*PI*r);
+System.out.printf("la longitud del area es " ,longitudCirculo);
+}
 }
